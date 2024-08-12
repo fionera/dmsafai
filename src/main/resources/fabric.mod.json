@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "dmsafai",
+  "version": "${version}",
+  "name": "Don't make such a fuzz about it",
+  "description": "Makes errors a bit less loud",
+  "authors": [
+    "fionera"
+  ],
+  "contact": {
+    "repo": "https://github.com/fionera/dmsafai"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/dmsafai/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.fionera.dmsafai.DontMakeSuchAFuzzAboutIt"
+    ]
+  },
+  "mixins": [
+    "dmsafai.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "accessWidener": "dmsafai.accesswidener"
+}
