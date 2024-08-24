@@ -1,4 +1,4 @@
-package de.fionera.dmsafai.mixins;
+package de.fionera.dmsafai;
 
 
 public abstract class ErrorReformatMixinBase {

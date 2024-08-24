@@ -1,5 +1,6 @@
 package de.fionera.dmsafai.mixins;
 
+import de.fionera.dmsafai.ErrorReformatMixinBase;
 import net.mehvahdjukaar.every_compat.misc.ResourcesUtils;
 import org.apache.logging.log4j.Logger;
 import org.spongepowered.asm.mixin.Mixin;

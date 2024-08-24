@@ -1,5 +1,6 @@
 package de.fionera.dmsafai.mixins;
 
+import de.fionera.dmsafai.ErrorReformatMixinBase;
 import net.minecraft.world.level.storage.loot.LootDataType;
 import org.slf4j.Logger;
 import org.spongepowered.asm.mixin.Mixin;
